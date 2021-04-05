@@ -61,6 +61,7 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   color: rgb(0, 0, 0);
+  position: relative;
 }
 
 .modal__title {
@@ -87,7 +88,8 @@ ul {
   position: absolute;
   display: flex;
   flex-direction: column;
-  right: 400px;
+  top: 90px;
+  right: 30px;
 }
 .button {
   text-decoration: none;
